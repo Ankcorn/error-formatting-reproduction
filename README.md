@@ -10,7 +10,7 @@ console.error(error)
 console.error("Hello World", error)
 ```
 
-Produces these logs, the `error: {}` empty string in the first is confusing.
+Produces these logs when passed to the tail, the `error: {}` empty string in the first is confusing.
 
 ```json
 [
